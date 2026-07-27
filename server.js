@@ -11,7 +11,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-  origin: "https://ai-career-coach-platform-frontend.vercel.app/",
+  origin: "https://ai-career-coach-platform-frontend.vercel.app",
     credentials: true,
 }));
 app.use(express.json());
